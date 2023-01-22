@@ -106,7 +106,7 @@ To use Resemble API, ensure following steps are executed:
     `--resemble_callback_url` parameter for the relevant script runs using Resemble as TTS.**
     
 ### Initialize Code
-*Run inference streaming pipline
+* Run inference streaming pipline
 ```sh
 python inference_streaming_pipeline.py -it text \
                                    	-TTS Resemble \
@@ -119,14 +119,14 @@ python inference_streaming_pipeline.py -it text \
                                    	--voice DeepSVid \
                                    	--resemble_callback_url  https://7855-184-103-165-113.ngrok.io
 ```
-*Run input stream socket on reciever
+* Run input stream socket on reciever
 ```sh
 python input_stream_socket.py -it text \
                               -tif terminal \
                               --HOST localhost \
                               --PORT 50007
 ```
-*Stream Result Video
+* Stream Result Video
 ```sh
 ffplay -f avi http://localhost:8080
 ```
