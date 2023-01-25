@@ -32,7 +32,7 @@ pip install google-cloud-texttospeech
 pip install google-cloud-speech
 pip install six
 pip install requests
-pip install Flask
+pip install flask
 pip install torch
 pip install opencv-python
 pip install opencv-contrib-python
