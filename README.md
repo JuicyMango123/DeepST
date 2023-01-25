@@ -36,7 +36,7 @@ pip install flask
 pip install torch
 pip install opencv-python
 pip install opencv-contrib-python
-Conda install pyaudio
+conda install pyaudio
 ```
 
 ### Wav2Lip Setup
